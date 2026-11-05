@@ -1,0 +1,82 @@
+syntax = "proto3";
+
+package business.v1;
+
+option java_package = "kh.edu.istad.contracts.business.v1";
+option java_multiple_files = true;
+
+service BusinessService {
+
+  rpc RegisterBusiness(RegisterBusinessRequest)
+      returns (RegisterBusinessResponse);
+
+  rpc ValidateBusiness(ValidateBusinessRequest)
+      returns (ValidateBusinessResponse);
+
+  rpc ReviewOrder(ReviewOrderRequest)
+      returns (ReviewOrderResponse);
+}
+
+message Business {
+  string business_id = 1;
+  string legal_name = 2;
+  string display_name = 3;
+  string email = 4;
+  string phone_number = 5;
+  bool active = 6;
+}
+
+message RegisterBusinessRequest {
+  string legal_name = 1;
+  string display_name = 2;
+  string email = 3;
+  string phone_number = 4;
+}
+
+message RegisterBusinessResponse {
+  Business business = 1;
+}
+
+message ValidateBusinessRequest {
+  string business_id = 1;
+}
+
+message ValidateBusinessResponse {
+  string business_id = 1;
+  bool active = 2;
+}
+
+message ReviewOrderRequest {
+  string business_id = 1;
+  string order_id = 2;
+  OrderStatus order_status = 3;
+  string total_amount = 4;
+  repeated Product products = 5;
+}
+
+message ReviewOrderResponse {
+  string order_approval_id = 1;
+  string business_id = 2;
+  string order_id = 3;
+  OrderApprovalStatus approval_status = 4;
+}
+
+message Product {
+  string product_id = 1;
+  string name = 2;
+  string price = 3;
+  int32 quantity = 4;
+  bool available = 5;
+}
+
+enum OrderStatus {
+  ORDER_STATUS_UNSPECIFIED = 0;
+  ORDER_STATUS_PENDING = 1;
+  ORDER_STATUS_PAID = 2;
+}
+
+enum OrderApprovalStatus {
+  ORDER_APPROVAL_STATUS_UNSPECIFIED = 0;
+  ORDER_APPROVAL_STATUS_APPROVED = 1;
+  ORDER_APPROVAL_STATUS_REJECTED = 2;
+}

@@ -1,0 +1,110 @@
+syntax = "proto3";
+
+package customer.v1;
+
+option java_package = "kh.edu.istad.contracts.customer.v1";
+option java_multiple_files = true;
+
+service CustomerService {
+
+  rpc CreateCustomer(CreateCustomerRequest)
+      returns (CustomerResponse);
+
+  rpc GetCustomer(GetCustomerRequest)
+      returns (CustomerResponse);
+
+  rpc UpdateCustomer(UpdateCustomerRequest)
+      returns (CustomerResponse);
+
+  rpc DeleteCustomer(DeleteCustomerRequest)
+      returns (DeleteCustomerResponse);
+
+  rpc ListCustomers(ListCustomersRequest)
+      returns (ListCustomersResponse);
+
+  rpc QueryCustomers(QueryCustomersRequest)
+      returns (ListCustomersResponse);
+
+  rpc AssignCustomerSegment(AssignCustomerSegmentRequest)
+      returns (CustomerResponse);
+
+  rpc GetCustomerStatistics(GetCustomerStatisticsRequest)
+      returns (CustomerStatisticsResponse);
+
+  rpc ValidateCustomer(ValidateCustomerRequest)
+      returns (ValidateCustomerResponse);
+}
+
+message Customer {
+  string id = 1;
+  string username = 2;
+  string email = 3;
+  string given_name = 4;
+  string family_name = 5;
+  string status = 6;
+  string segment_id = 7;
+}
+
+message CreateCustomerRequest {
+  string username = 1;
+  string email = 2;
+  string given_name = 3;
+  string family_name = 4;
+}
+
+message GetCustomerRequest {
+  string customer_id = 1;
+}
+
+message UpdateCustomerRequest {
+  string customer_id = 1;
+  string given_name = 2;
+  string family_name = 3;
+}
+
+message DeleteCustomerRequest {
+  string customer_id = 1;
+}
+
+message DeleteCustomerResponse {
+  bool deleted = 1;
+}
+
+message CustomerResponse {
+  Customer customer = 1;
+}
+
+message ListCustomersRequest {
+}
+
+message ListCustomersResponse {
+  repeated Customer customers = 1;
+}
+
+message QueryCustomersRequest {
+  string username = 1;
+  string email = 2;
+  string status = 3;
+}
+
+message AssignCustomerSegmentRequest {
+  string customer_id = 1;
+  string segment_id = 2;
+}
+
+message GetCustomerStatisticsRequest {
+}
+
+message CustomerStatisticsResponse {
+  int64 total_customers = 1;
+}
+
+message ValidateCustomerRequest {
+  string customer_id = 1;
+}
+
+message ValidateCustomerResponse {
+  string customer_id = 1;
+  bool exists = 2;
+  bool active = 3;
+}

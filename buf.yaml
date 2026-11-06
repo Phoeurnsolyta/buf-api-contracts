@@ -4,6 +4,9 @@ modules:
   - path: proto
     name: buf.build/lyta/buf-contracts
 
+  - path: server-schema
+    name: buf.build/lyta/customer-service-contract
+
 deps:
   - buf.build/googleapis/googleapis
 

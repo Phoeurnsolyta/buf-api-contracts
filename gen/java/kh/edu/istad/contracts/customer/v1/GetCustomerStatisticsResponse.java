@@ -6,13 +6,13 @@
 package kh.edu.istad.contracts.customer.v1;
 
 /**
- * Protobuf type {@code customer.v1.CustomerStatisticsResponse}
+ * Protobuf type {@code customer.v1.GetCustomerStatisticsResponse}
  */
 @com.google.protobuf.Generated
-public final class CustomerStatisticsResponse extends
+public final class GetCustomerStatisticsResponse extends
     com.google.protobuf.GeneratedMessage implements
-    // @@protoc_insertion_point(message_implements:customer.v1.CustomerStatisticsResponse)
-    CustomerStatisticsResponseOrBuilder {
+    // @@protoc_insertion_point(message_implements:customer.v1.GetCustomerStatisticsResponse)
+    GetCustomerStatisticsResponseOrBuilder {
 private static final long serialVersionUID = 0L;
   static {
     com.google.protobuf.RuntimeVersion.validateProtobufGencodeVersion(
@@ -21,31 +21,31 @@ private static final long serialVersionUID = 0L;
       /* minor= */ 36,
       /* patch= */ 2,
       /* suffix= */ "",
-      "CustomerStatisticsResponse");
+      "GetCustomerStatisticsResponse");
   }
-  // Use CustomerStatisticsResponse.newBuilder() to construct.
-  private CustomerStatisticsResponse(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+  // Use GetCustomerStatisticsResponse.newBuilder() to construct.
+  private GetCustomerStatisticsResponse(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
     super(builder);
   }
-  private CustomerStatisticsResponse() {
+  private GetCustomerStatisticsResponse() {
   }
 
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return kh.edu.istad.contracts.customer.v1.CustomerOuterClass.internal_static_customer_v1_CustomerStatisticsResponse_descriptor;
+    return kh.edu.istad.contracts.customer.v1.CustomerOuterClass.internal_static_customer_v1_GetCustomerStatisticsResponse_descriptor;
   }
 
   @java.lang.Override
   public com.google.protobuf.Descriptors.Descriptor getDescriptorForType() {
-    return kh.edu.istad.contracts.customer.v1.CustomerOuterClass.internal_static_customer_v1_CustomerStatisticsResponse_descriptor;
+    return kh.edu.istad.contracts.customer.v1.CustomerOuterClass.internal_static_customer_v1_GetCustomerStatisticsResponse_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return kh.edu.istad.contracts.customer.v1.CustomerOuterClass.internal_static_customer_v1_CustomerStatisticsResponse_fieldAccessorTable
+    return kh.edu.istad.contracts.customer.v1.CustomerOuterClass.internal_static_customer_v1_GetCustomerStatisticsResponse_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
-            kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse.class, kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse.Builder.class);
+            kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse.class, kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse.Builder.class);
   }
 
   public static final int TOTAL_CUSTOMERS_FIELD_NUMBER = 1;
@@ -103,10 +103,10 @@ private static final long serialVersionUID = 0L;
     if (obj == this) {
      return true;
     }
-    if (!(obj instanceof kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse)) {
+    if (!(obj instanceof kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse)) {
       return super.equals(obj);
     }
-    kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse other = (kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse) obj;
+    kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse other = (kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse) obj;
 
     if (getTotalCustomers()
         != other.getTotalCustomers()) return false;
@@ -129,44 +129,44 @@ private static final long serialVersionUID = 0L;
     return hash;
   }
 
-  public static kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse parseFrom(
+  public static kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse parseFrom(
       java.nio.ByteBuffer data)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data);
   }
-  public static kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse parseFrom(
+  public static kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse parseFrom(
       java.nio.ByteBuffer data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data, extensionRegistry);
   }
-  public static kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse parseFrom(
+  public static kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse parseFrom(
       com.google.protobuf.ByteString data)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data);
   }
-  public static kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse parseFrom(
+  public static kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse parseFrom(
       com.google.protobuf.ByteString data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data, extensionRegistry);
   }
-  public static kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse parseFrom(byte[] data)
+  public static kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse parseFrom(byte[] data)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data);
   }
-  public static kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse parseFrom(
+  public static kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse parseFrom(
       byte[] data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data, extensionRegistry);
   }
-  public static kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse parseFrom(java.io.InputStream input)
+  public static kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse parseFrom(java.io.InputStream input)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessage
         .parseWithIOException(PARSER, input);
   }
-  public static kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse parseFrom(
+  public static kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse parseFrom(
       java.io.InputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
@@ -174,26 +174,26 @@ private static final long serialVersionUID = 0L;
         .parseWithIOException(PARSER, input, extensionRegistry);
   }
 
-  public static kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse parseDelimitedFrom(java.io.InputStream input)
+  public static kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse parseDelimitedFrom(java.io.InputStream input)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessage
         .parseDelimitedWithIOException(PARSER, input);
   }
 
-  public static kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse parseDelimitedFrom(
+  public static kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse parseDelimitedFrom(
       java.io.InputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessage
         .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
   }
-  public static kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse parseFrom(
+  public static kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse parseFrom(
       com.google.protobuf.CodedInputStream input)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessage
         .parseWithIOException(PARSER, input);
   }
-  public static kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse parseFrom(
+  public static kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse parseFrom(
       com.google.protobuf.CodedInputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
@@ -206,7 +206,7 @@ private static final long serialVersionUID = 0L;
   public static Builder newBuilder() {
     return DEFAULT_INSTANCE.toBuilder();
   }
-  public static Builder newBuilder(kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse prototype) {
+  public static Builder newBuilder(kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse prototype) {
     return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
   }
   @java.lang.Override
@@ -222,26 +222,26 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code customer.v1.CustomerStatisticsResponse}
+   * Protobuf type {@code customer.v1.GetCustomerStatisticsResponse}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:customer.v1.CustomerStatisticsResponse)
-      kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponseOrBuilder {
+      // @@protoc_insertion_point(builder_implements:customer.v1.GetCustomerStatisticsResponse)
+      kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponseOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return kh.edu.istad.contracts.customer.v1.CustomerOuterClass.internal_static_customer_v1_CustomerStatisticsResponse_descriptor;
+      return kh.edu.istad.contracts.customer.v1.CustomerOuterClass.internal_static_customer_v1_GetCustomerStatisticsResponse_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return kh.edu.istad.contracts.customer.v1.CustomerOuterClass.internal_static_customer_v1_CustomerStatisticsResponse_fieldAccessorTable
+      return kh.edu.istad.contracts.customer.v1.CustomerOuterClass.internal_static_customer_v1_GetCustomerStatisticsResponse_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse.class, kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse.Builder.class);
+              kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse.class, kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse.Builder.class);
     }
 
-    // Construct using kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse.newBuilder()
+    // Construct using kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse.newBuilder()
     private Builder() {
 
     }
@@ -262,17 +262,17 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return kh.edu.istad.contracts.customer.v1.CustomerOuterClass.internal_static_customer_v1_CustomerStatisticsResponse_descriptor;
+      return kh.edu.istad.contracts.customer.v1.CustomerOuterClass.internal_static_customer_v1_GetCustomerStatisticsResponse_descriptor;
     }
 
     @java.lang.Override
-    public kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse getDefaultInstanceForType() {
-      return kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse.getDefaultInstance();
+    public kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse getDefaultInstanceForType() {
+      return kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse.getDefaultInstance();
     }
 
     @java.lang.Override
-    public kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse build() {
-      kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse result = buildPartial();
+    public kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse build() {
+      kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse result = buildPartial();
       if (!result.isInitialized()) {
         throw newUninitializedMessageException(result);
       }
@@ -280,14 +280,14 @@ private static final long serialVersionUID = 0L;
     }
 
     @java.lang.Override
-    public kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse buildPartial() {
-      kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse result = new kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse(this);
+    public kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse buildPartial() {
+      kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse result = new kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse(this);
       if (bitField0_ != 0) { buildPartial0(result); }
       onBuilt();
       return result;
     }
 
-    private void buildPartial0(kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse result) {
+    private void buildPartial0(kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse result) {
       int from_bitField0_ = bitField0_;
       if (((from_bitField0_ & 0x00000001) != 0)) {
         result.totalCustomers_ = totalCustomers_;
@@ -296,16 +296,16 @@ private static final long serialVersionUID = 0L;
 
     @java.lang.Override
     public Builder mergeFrom(com.google.protobuf.Message other) {
-      if (other instanceof kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse) {
-        return mergeFrom((kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse)other);
+      if (other instanceof kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse) {
+        return mergeFrom((kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse)other);
       } else {
         super.mergeFrom(other);
         return this;
       }
     }
 
-    public Builder mergeFrom(kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse other) {
-      if (other == kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse.getDefaultInstance()) return this;
+    public Builder mergeFrom(kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse other) {
+      if (other == kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse.getDefaultInstance()) return this;
       if (other.getTotalCustomers() != 0L) {
         setTotalCustomers(other.getTotalCustomers());
       }
@@ -387,23 +387,23 @@ private static final long serialVersionUID = 0L;
       return this;
     }
 
-    // @@protoc_insertion_point(builder_scope:customer.v1.CustomerStatisticsResponse)
+    // @@protoc_insertion_point(builder_scope:customer.v1.GetCustomerStatisticsResponse)
   }
 
-  // @@protoc_insertion_point(class_scope:customer.v1.CustomerStatisticsResponse)
-  private static final kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse DEFAULT_INSTANCE;
+  // @@protoc_insertion_point(class_scope:customer.v1.GetCustomerStatisticsResponse)
+  private static final kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse DEFAULT_INSTANCE;
   static {
-    DEFAULT_INSTANCE = new kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse();
+    DEFAULT_INSTANCE = new kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse();
   }
 
-  public static kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse getDefaultInstance() {
+  public static kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse getDefaultInstance() {
     return DEFAULT_INSTANCE;
   }
 
-  private static final com.google.protobuf.Parser<CustomerStatisticsResponse>
-      PARSER = new com.google.protobuf.AbstractParser<CustomerStatisticsResponse>() {
+  private static final com.google.protobuf.Parser<GetCustomerStatisticsResponse>
+      PARSER = new com.google.protobuf.AbstractParser<GetCustomerStatisticsResponse>() {
     @java.lang.Override
-    public CustomerStatisticsResponse parsePartialFrom(
+    public GetCustomerStatisticsResponse parsePartialFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -422,17 +422,17 @@ private static final long serialVersionUID = 0L;
     }
   };
 
-  public static com.google.protobuf.Parser<CustomerStatisticsResponse> parser() {
+  public static com.google.protobuf.Parser<GetCustomerStatisticsResponse> parser() {
     return PARSER;
   }
 
   @java.lang.Override
-  public com.google.protobuf.Parser<CustomerStatisticsResponse> getParserForType() {
+  public com.google.protobuf.Parser<GetCustomerStatisticsResponse> getParserForType() {
     return PARSER;
   }
 
   @java.lang.Override
-  public kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse getDefaultInstanceForType() {
+  public kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse getDefaultInstanceForType() {
     return DEFAULT_INSTANCE;
   }
 

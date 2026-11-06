@@ -13,28 +13,28 @@ public final class CustomerServiceGrpc {
 
   // Static method descriptors that strictly reflect the proto.
   private static volatile io.grpc.MethodDescriptor<kh.edu.istad.contracts.customer.v1.CreateCustomerRequest,
-      kh.edu.istad.contracts.customer.v1.CustomerResponse> getCreateCustomerMethod;
+      kh.edu.istad.contracts.customer.v1.CreateCustomerResponse> getCreateCustomerMethod;
 
   @io.grpc.stub.annotations.RpcMethod(
       fullMethodName = SERVICE_NAME + '/' + "CreateCustomer",
       requestType = kh.edu.istad.contracts.customer.v1.CreateCustomerRequest.class,
-      responseType = kh.edu.istad.contracts.customer.v1.CustomerResponse.class,
+      responseType = kh.edu.istad.contracts.customer.v1.CreateCustomerResponse.class,
       methodType = io.grpc.MethodDescriptor.MethodType.UNARY)
   public static io.grpc.MethodDescriptor<kh.edu.istad.contracts.customer.v1.CreateCustomerRequest,
-      kh.edu.istad.contracts.customer.v1.CustomerResponse> getCreateCustomerMethod() {
-    io.grpc.MethodDescriptor<kh.edu.istad.contracts.customer.v1.CreateCustomerRequest, kh.edu.istad.contracts.customer.v1.CustomerResponse> getCreateCustomerMethod;
+      kh.edu.istad.contracts.customer.v1.CreateCustomerResponse> getCreateCustomerMethod() {
+    io.grpc.MethodDescriptor<kh.edu.istad.contracts.customer.v1.CreateCustomerRequest, kh.edu.istad.contracts.customer.v1.CreateCustomerResponse> getCreateCustomerMethod;
     if ((getCreateCustomerMethod = CustomerServiceGrpc.getCreateCustomerMethod) == null) {
       synchronized (CustomerServiceGrpc.class) {
         if ((getCreateCustomerMethod = CustomerServiceGrpc.getCreateCustomerMethod) == null) {
           CustomerServiceGrpc.getCreateCustomerMethod = getCreateCustomerMethod =
-              io.grpc.MethodDescriptor.<kh.edu.istad.contracts.customer.v1.CreateCustomerRequest, kh.edu.istad.contracts.customer.v1.CustomerResponse>newBuilder()
+              io.grpc.MethodDescriptor.<kh.edu.istad.contracts.customer.v1.CreateCustomerRequest, kh.edu.istad.contracts.customer.v1.CreateCustomerResponse>newBuilder()
               .setType(io.grpc.MethodDescriptor.MethodType.UNARY)
               .setFullMethodName(generateFullMethodName(SERVICE_NAME, "CreateCustomer"))
               .setSampledToLocalTracing(true)
               .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
                   kh.edu.istad.contracts.customer.v1.CreateCustomerRequest.getDefaultInstance()))
               .setResponseMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  kh.edu.istad.contracts.customer.v1.CustomerResponse.getDefaultInstance()))
+                  kh.edu.istad.contracts.customer.v1.CreateCustomerResponse.getDefaultInstance()))
               .setSchemaDescriptor(new CustomerServiceMethodDescriptorSupplier("CreateCustomer"))
               .build();
         }
@@ -44,28 +44,28 @@ public final class CustomerServiceGrpc {
   }
 
   private static volatile io.grpc.MethodDescriptor<kh.edu.istad.contracts.customer.v1.GetCustomerRequest,
-      kh.edu.istad.contracts.customer.v1.CustomerResponse> getGetCustomerMethod;
+      kh.edu.istad.contracts.customer.v1.GetCustomerResponse> getGetCustomerMethod;
 
   @io.grpc.stub.annotations.RpcMethod(
       fullMethodName = SERVICE_NAME + '/' + "GetCustomer",
       requestType = kh.edu.istad.contracts.customer.v1.GetCustomerRequest.class,
-      responseType = kh.edu.istad.contracts.customer.v1.CustomerResponse.class,
+      responseType = kh.edu.istad.contracts.customer.v1.GetCustomerResponse.class,
       methodType = io.grpc.MethodDescriptor.MethodType.UNARY)
   public static io.grpc.MethodDescriptor<kh.edu.istad.contracts.customer.v1.GetCustomerRequest,
-      kh.edu.istad.contracts.customer.v1.CustomerResponse> getGetCustomerMethod() {
-    io.grpc.MethodDescriptor<kh.edu.istad.contracts.customer.v1.GetCustomerRequest, kh.edu.istad.contracts.customer.v1.CustomerResponse> getGetCustomerMethod;
+      kh.edu.istad.contracts.customer.v1.GetCustomerResponse> getGetCustomerMethod() {
+    io.grpc.MethodDescriptor<kh.edu.istad.contracts.customer.v1.GetCustomerRequest, kh.edu.istad.contracts.customer.v1.GetCustomerResponse> getGetCustomerMethod;
     if ((getGetCustomerMethod = CustomerServiceGrpc.getGetCustomerMethod) == null) {
       synchronized (CustomerServiceGrpc.class) {
         if ((getGetCustomerMethod = CustomerServiceGrpc.getGetCustomerMethod) == null) {
           CustomerServiceGrpc.getGetCustomerMethod = getGetCustomerMethod =
-              io.grpc.MethodDescriptor.<kh.edu.istad.contracts.customer.v1.GetCustomerRequest, kh.edu.istad.contracts.customer.v1.CustomerResponse>newBuilder()
+              io.grpc.MethodDescriptor.<kh.edu.istad.contracts.customer.v1.GetCustomerRequest, kh.edu.istad.contracts.customer.v1.GetCustomerResponse>newBuilder()
               .setType(io.grpc.MethodDescriptor.MethodType.UNARY)
               .setFullMethodName(generateFullMethodName(SERVICE_NAME, "GetCustomer"))
               .setSampledToLocalTracing(true)
               .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
                   kh.edu.istad.contracts.customer.v1.GetCustomerRequest.getDefaultInstance()))
               .setResponseMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  kh.edu.istad.contracts.customer.v1.CustomerResponse.getDefaultInstance()))
+                  kh.edu.istad.contracts.customer.v1.GetCustomerResponse.getDefaultInstance()))
               .setSchemaDescriptor(new CustomerServiceMethodDescriptorSupplier("GetCustomer"))
               .build();
         }
@@ -75,28 +75,28 @@ public final class CustomerServiceGrpc {
   }
 
   private static volatile io.grpc.MethodDescriptor<kh.edu.istad.contracts.customer.v1.UpdateCustomerRequest,
-      kh.edu.istad.contracts.customer.v1.CustomerResponse> getUpdateCustomerMethod;
+      kh.edu.istad.contracts.customer.v1.UpdateCustomerResponse> getUpdateCustomerMethod;
 
   @io.grpc.stub.annotations.RpcMethod(
       fullMethodName = SERVICE_NAME + '/' + "UpdateCustomer",
       requestType = kh.edu.istad.contracts.customer.v1.UpdateCustomerRequest.class,
-      responseType = kh.edu.istad.contracts.customer.v1.CustomerResponse.class,
+      responseType = kh.edu.istad.contracts.customer.v1.UpdateCustomerResponse.class,
       methodType = io.grpc.MethodDescriptor.MethodType.UNARY)
   public static io.grpc.MethodDescriptor<kh.edu.istad.contracts.customer.v1.UpdateCustomerRequest,
-      kh.edu.istad.contracts.customer.v1.CustomerResponse> getUpdateCustomerMethod() {
-    io.grpc.MethodDescriptor<kh.edu.istad.contracts.customer.v1.UpdateCustomerRequest, kh.edu.istad.contracts.customer.v1.CustomerResponse> getUpdateCustomerMethod;
+      kh.edu.istad.contracts.customer.v1.UpdateCustomerResponse> getUpdateCustomerMethod() {
+    io.grpc.MethodDescriptor<kh.edu.istad.contracts.customer.v1.UpdateCustomerRequest, kh.edu.istad.contracts.customer.v1.UpdateCustomerResponse> getUpdateCustomerMethod;
     if ((getUpdateCustomerMethod = CustomerServiceGrpc.getUpdateCustomerMethod) == null) {
       synchronized (CustomerServiceGrpc.class) {
         if ((getUpdateCustomerMethod = CustomerServiceGrpc.getUpdateCustomerMethod) == null) {
           CustomerServiceGrpc.getUpdateCustomerMethod = getUpdateCustomerMethod =
-              io.grpc.MethodDescriptor.<kh.edu.istad.contracts.customer.v1.UpdateCustomerRequest, kh.edu.istad.contracts.customer.v1.CustomerResponse>newBuilder()
+              io.grpc.MethodDescriptor.<kh.edu.istad.contracts.customer.v1.UpdateCustomerRequest, kh.edu.istad.contracts.customer.v1.UpdateCustomerResponse>newBuilder()
               .setType(io.grpc.MethodDescriptor.MethodType.UNARY)
               .setFullMethodName(generateFullMethodName(SERVICE_NAME, "UpdateCustomer"))
               .setSampledToLocalTracing(true)
               .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
                   kh.edu.istad.contracts.customer.v1.UpdateCustomerRequest.getDefaultInstance()))
               .setResponseMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  kh.edu.istad.contracts.customer.v1.CustomerResponse.getDefaultInstance()))
+                  kh.edu.istad.contracts.customer.v1.UpdateCustomerResponse.getDefaultInstance()))
               .setSchemaDescriptor(new CustomerServiceMethodDescriptorSupplier("UpdateCustomer"))
               .build();
         }
@@ -168,28 +168,28 @@ public final class CustomerServiceGrpc {
   }
 
   private static volatile io.grpc.MethodDescriptor<kh.edu.istad.contracts.customer.v1.QueryCustomersRequest,
-      kh.edu.istad.contracts.customer.v1.ListCustomersResponse> getQueryCustomersMethod;
+      kh.edu.istad.contracts.customer.v1.QueryCustomersResponse> getQueryCustomersMethod;
 
   @io.grpc.stub.annotations.RpcMethod(
       fullMethodName = SERVICE_NAME + '/' + "QueryCustomers",
       requestType = kh.edu.istad.contracts.customer.v1.QueryCustomersRequest.class,
-      responseType = kh.edu.istad.contracts.customer.v1.ListCustomersResponse.class,
+      responseType = kh.edu.istad.contracts.customer.v1.QueryCustomersResponse.class,
       methodType = io.grpc.MethodDescriptor.MethodType.UNARY)
   public static io.grpc.MethodDescriptor<kh.edu.istad.contracts.customer.v1.QueryCustomersRequest,
-      kh.edu.istad.contracts.customer.v1.ListCustomersResponse> getQueryCustomersMethod() {
-    io.grpc.MethodDescriptor<kh.edu.istad.contracts.customer.v1.QueryCustomersRequest, kh.edu.istad.contracts.customer.v1.ListCustomersResponse> getQueryCustomersMethod;
+      kh.edu.istad.contracts.customer.v1.QueryCustomersResponse> getQueryCustomersMethod() {
+    io.grpc.MethodDescriptor<kh.edu.istad.contracts.customer.v1.QueryCustomersRequest, kh.edu.istad.contracts.customer.v1.QueryCustomersResponse> getQueryCustomersMethod;
     if ((getQueryCustomersMethod = CustomerServiceGrpc.getQueryCustomersMethod) == null) {
       synchronized (CustomerServiceGrpc.class) {
         if ((getQueryCustomersMethod = CustomerServiceGrpc.getQueryCustomersMethod) == null) {
           CustomerServiceGrpc.getQueryCustomersMethod = getQueryCustomersMethod =
-              io.grpc.MethodDescriptor.<kh.edu.istad.contracts.customer.v1.QueryCustomersRequest, kh.edu.istad.contracts.customer.v1.ListCustomersResponse>newBuilder()
+              io.grpc.MethodDescriptor.<kh.edu.istad.contracts.customer.v1.QueryCustomersRequest, kh.edu.istad.contracts.customer.v1.QueryCustomersResponse>newBuilder()
               .setType(io.grpc.MethodDescriptor.MethodType.UNARY)
               .setFullMethodName(generateFullMethodName(SERVICE_NAME, "QueryCustomers"))
               .setSampledToLocalTracing(true)
               .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
                   kh.edu.istad.contracts.customer.v1.QueryCustomersRequest.getDefaultInstance()))
               .setResponseMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  kh.edu.istad.contracts.customer.v1.ListCustomersResponse.getDefaultInstance()))
+                  kh.edu.istad.contracts.customer.v1.QueryCustomersResponse.getDefaultInstance()))
               .setSchemaDescriptor(new CustomerServiceMethodDescriptorSupplier("QueryCustomers"))
               .build();
         }
@@ -199,28 +199,28 @@ public final class CustomerServiceGrpc {
   }
 
   private static volatile io.grpc.MethodDescriptor<kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentRequest,
-      kh.edu.istad.contracts.customer.v1.CustomerResponse> getAssignCustomerSegmentMethod;
+      kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse> getAssignCustomerSegmentMethod;
 
   @io.grpc.stub.annotations.RpcMethod(
       fullMethodName = SERVICE_NAME + '/' + "AssignCustomerSegment",
       requestType = kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentRequest.class,
-      responseType = kh.edu.istad.contracts.customer.v1.CustomerResponse.class,
+      responseType = kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse.class,
       methodType = io.grpc.MethodDescriptor.MethodType.UNARY)
   public static io.grpc.MethodDescriptor<kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentRequest,
-      kh.edu.istad.contracts.customer.v1.CustomerResponse> getAssignCustomerSegmentMethod() {
-    io.grpc.MethodDescriptor<kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentRequest, kh.edu.istad.contracts.customer.v1.CustomerResponse> getAssignCustomerSegmentMethod;
+      kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse> getAssignCustomerSegmentMethod() {
+    io.grpc.MethodDescriptor<kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentRequest, kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse> getAssignCustomerSegmentMethod;
     if ((getAssignCustomerSegmentMethod = CustomerServiceGrpc.getAssignCustomerSegmentMethod) == null) {
       synchronized (CustomerServiceGrpc.class) {
         if ((getAssignCustomerSegmentMethod = CustomerServiceGrpc.getAssignCustomerSegmentMethod) == null) {
           CustomerServiceGrpc.getAssignCustomerSegmentMethod = getAssignCustomerSegmentMethod =
-              io.grpc.MethodDescriptor.<kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentRequest, kh.edu.istad.contracts.customer.v1.CustomerResponse>newBuilder()
+              io.grpc.MethodDescriptor.<kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentRequest, kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse>newBuilder()
               .setType(io.grpc.MethodDescriptor.MethodType.UNARY)
               .setFullMethodName(generateFullMethodName(SERVICE_NAME, "AssignCustomerSegment"))
               .setSampledToLocalTracing(true)
               .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
                   kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentRequest.getDefaultInstance()))
               .setResponseMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  kh.edu.istad.contracts.customer.v1.CustomerResponse.getDefaultInstance()))
+                  kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse.getDefaultInstance()))
               .setSchemaDescriptor(new CustomerServiceMethodDescriptorSupplier("AssignCustomerSegment"))
               .build();
         }
@@ -230,28 +230,28 @@ public final class CustomerServiceGrpc {
   }
 
   private static volatile io.grpc.MethodDescriptor<kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsRequest,
-      kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse> getGetCustomerStatisticsMethod;
+      kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse> getGetCustomerStatisticsMethod;
 
   @io.grpc.stub.annotations.RpcMethod(
       fullMethodName = SERVICE_NAME + '/' + "GetCustomerStatistics",
       requestType = kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsRequest.class,
-      responseType = kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse.class,
+      responseType = kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse.class,
       methodType = io.grpc.MethodDescriptor.MethodType.UNARY)
   public static io.grpc.MethodDescriptor<kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsRequest,
-      kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse> getGetCustomerStatisticsMethod() {
-    io.grpc.MethodDescriptor<kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsRequest, kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse> getGetCustomerStatisticsMethod;
+      kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse> getGetCustomerStatisticsMethod() {
+    io.grpc.MethodDescriptor<kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsRequest, kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse> getGetCustomerStatisticsMethod;
     if ((getGetCustomerStatisticsMethod = CustomerServiceGrpc.getGetCustomerStatisticsMethod) == null) {
       synchronized (CustomerServiceGrpc.class) {
         if ((getGetCustomerStatisticsMethod = CustomerServiceGrpc.getGetCustomerStatisticsMethod) == null) {
           CustomerServiceGrpc.getGetCustomerStatisticsMethod = getGetCustomerStatisticsMethod =
-              io.grpc.MethodDescriptor.<kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsRequest, kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse>newBuilder()
+              io.grpc.MethodDescriptor.<kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsRequest, kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse>newBuilder()
               .setType(io.grpc.MethodDescriptor.MethodType.UNARY)
               .setFullMethodName(generateFullMethodName(SERVICE_NAME, "GetCustomerStatistics"))
               .setSampledToLocalTracing(true)
               .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
                   kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsRequest.getDefaultInstance()))
               .setResponseMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse.getDefaultInstance()))
+                  kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse.getDefaultInstance()))
               .setSchemaDescriptor(new CustomerServiceMethodDescriptorSupplier("GetCustomerStatistics"))
               .build();
         }
@@ -357,21 +357,21 @@ public final class CustomerServiceGrpc {
     /**
      */
     default void createCustomer(kh.edu.istad.contracts.customer.v1.CreateCustomerRequest request,
-        io.grpc.stub.StreamObserver<kh.edu.istad.contracts.customer.v1.CustomerResponse> responseObserver) {
+        io.grpc.stub.StreamObserver<kh.edu.istad.contracts.customer.v1.CreateCustomerResponse> responseObserver) {
       io.grpc.stub.ServerCalls.asyncUnimplementedUnaryCall(getCreateCustomerMethod(), responseObserver);
     }
 
     /**
      */
     default void getCustomer(kh.edu.istad.contracts.customer.v1.GetCustomerRequest request,
-        io.grpc.stub.StreamObserver<kh.edu.istad.contracts.customer.v1.CustomerResponse> responseObserver) {
+        io.grpc.stub.StreamObserver<kh.edu.istad.contracts.customer.v1.GetCustomerResponse> responseObserver) {
       io.grpc.stub.ServerCalls.asyncUnimplementedUnaryCall(getGetCustomerMethod(), responseObserver);
     }
 
     /**
      */
     default void updateCustomer(kh.edu.istad.contracts.customer.v1.UpdateCustomerRequest request,
-        io.grpc.stub.StreamObserver<kh.edu.istad.contracts.customer.v1.CustomerResponse> responseObserver) {
+        io.grpc.stub.StreamObserver<kh.edu.istad.contracts.customer.v1.UpdateCustomerResponse> responseObserver) {
       io.grpc.stub.ServerCalls.asyncUnimplementedUnaryCall(getUpdateCustomerMethod(), responseObserver);
     }
 
@@ -392,21 +392,21 @@ public final class CustomerServiceGrpc {
     /**
      */
     default void queryCustomers(kh.edu.istad.contracts.customer.v1.QueryCustomersRequest request,
-        io.grpc.stub.StreamObserver<kh.edu.istad.contracts.customer.v1.ListCustomersResponse> responseObserver) {
+        io.grpc.stub.StreamObserver<kh.edu.istad.contracts.customer.v1.QueryCustomersResponse> responseObserver) {
       io.grpc.stub.ServerCalls.asyncUnimplementedUnaryCall(getQueryCustomersMethod(), responseObserver);
     }
 
     /**
      */
     default void assignCustomerSegment(kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentRequest request,
-        io.grpc.stub.StreamObserver<kh.edu.istad.contracts.customer.v1.CustomerResponse> responseObserver) {
+        io.grpc.stub.StreamObserver<kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse> responseObserver) {
       io.grpc.stub.ServerCalls.asyncUnimplementedUnaryCall(getAssignCustomerSegmentMethod(), responseObserver);
     }
 
     /**
      */
     default void getCustomerStatistics(kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsRequest request,
-        io.grpc.stub.StreamObserver<kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse> responseObserver) {
+        io.grpc.stub.StreamObserver<kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse> responseObserver) {
       io.grpc.stub.ServerCalls.asyncUnimplementedUnaryCall(getGetCustomerStatisticsMethod(), responseObserver);
     }
 
@@ -448,7 +448,7 @@ public final class CustomerServiceGrpc {
     /**
      */
     public void createCustomer(kh.edu.istad.contracts.customer.v1.CreateCustomerRequest request,
-        io.grpc.stub.StreamObserver<kh.edu.istad.contracts.customer.v1.CustomerResponse> responseObserver) {
+        io.grpc.stub.StreamObserver<kh.edu.istad.contracts.customer.v1.CreateCustomerResponse> responseObserver) {
       io.grpc.stub.ClientCalls.asyncUnaryCall(
           getChannel().newCall(getCreateCustomerMethod(), getCallOptions()), request, responseObserver);
     }
@@ -456,7 +456,7 @@ public final class CustomerServiceGrpc {
     /**
      */
     public void getCustomer(kh.edu.istad.contracts.customer.v1.GetCustomerRequest request,
-        io.grpc.stub.StreamObserver<kh.edu.istad.contracts.customer.v1.CustomerResponse> responseObserver) {
+        io.grpc.stub.StreamObserver<kh.edu.istad.contracts.customer.v1.GetCustomerResponse> responseObserver) {
       io.grpc.stub.ClientCalls.asyncUnaryCall(
           getChannel().newCall(getGetCustomerMethod(), getCallOptions()), request, responseObserver);
     }
@@ -464,7 +464,7 @@ public final class CustomerServiceGrpc {
     /**
      */
     public void updateCustomer(kh.edu.istad.contracts.customer.v1.UpdateCustomerRequest request,
-        io.grpc.stub.StreamObserver<kh.edu.istad.contracts.customer.v1.CustomerResponse> responseObserver) {
+        io.grpc.stub.StreamObserver<kh.edu.istad.contracts.customer.v1.UpdateCustomerResponse> responseObserver) {
       io.grpc.stub.ClientCalls.asyncUnaryCall(
           getChannel().newCall(getUpdateCustomerMethod(), getCallOptions()), request, responseObserver);
     }
@@ -488,7 +488,7 @@ public final class CustomerServiceGrpc {
     /**
      */
     public void queryCustomers(kh.edu.istad.contracts.customer.v1.QueryCustomersRequest request,
-        io.grpc.stub.StreamObserver<kh.edu.istad.contracts.customer.v1.ListCustomersResponse> responseObserver) {
+        io.grpc.stub.StreamObserver<kh.edu.istad.contracts.customer.v1.QueryCustomersResponse> responseObserver) {
       io.grpc.stub.ClientCalls.asyncUnaryCall(
           getChannel().newCall(getQueryCustomersMethod(), getCallOptions()), request, responseObserver);
     }
@@ -496,7 +496,7 @@ public final class CustomerServiceGrpc {
     /**
      */
     public void assignCustomerSegment(kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentRequest request,
-        io.grpc.stub.StreamObserver<kh.edu.istad.contracts.customer.v1.CustomerResponse> responseObserver) {
+        io.grpc.stub.StreamObserver<kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse> responseObserver) {
       io.grpc.stub.ClientCalls.asyncUnaryCall(
           getChannel().newCall(getAssignCustomerSegmentMethod(), getCallOptions()), request, responseObserver);
     }
@@ -504,7 +504,7 @@ public final class CustomerServiceGrpc {
     /**
      */
     public void getCustomerStatistics(kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsRequest request,
-        io.grpc.stub.StreamObserver<kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse> responseObserver) {
+        io.grpc.stub.StreamObserver<kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse> responseObserver) {
       io.grpc.stub.ClientCalls.asyncUnaryCall(
           getChannel().newCall(getGetCustomerStatisticsMethod(), getCallOptions()), request, responseObserver);
     }
@@ -536,21 +536,21 @@ public final class CustomerServiceGrpc {
 
     /**
      */
-    public kh.edu.istad.contracts.customer.v1.CustomerResponse createCustomer(kh.edu.istad.contracts.customer.v1.CreateCustomerRequest request) throws io.grpc.StatusException {
+    public kh.edu.istad.contracts.customer.v1.CreateCustomerResponse createCustomer(kh.edu.istad.contracts.customer.v1.CreateCustomerRequest request) throws io.grpc.StatusException {
       return io.grpc.stub.ClientCalls.blockingV2UnaryCall(
           getChannel(), getCreateCustomerMethod(), getCallOptions(), request);
     }
 
     /**
      */
-    public kh.edu.istad.contracts.customer.v1.CustomerResponse getCustomer(kh.edu.istad.contracts.customer.v1.GetCustomerRequest request) throws io.grpc.StatusException {
+    public kh.edu.istad.contracts.customer.v1.GetCustomerResponse getCustomer(kh.edu.istad.contracts.customer.v1.GetCustomerRequest request) throws io.grpc.StatusException {
       return io.grpc.stub.ClientCalls.blockingV2UnaryCall(
           getChannel(), getGetCustomerMethod(), getCallOptions(), request);
     }
 
     /**
      */
-    public kh.edu.istad.contracts.customer.v1.CustomerResponse updateCustomer(kh.edu.istad.contracts.customer.v1.UpdateCustomerRequest request) throws io.grpc.StatusException {
+    public kh.edu.istad.contracts.customer.v1.UpdateCustomerResponse updateCustomer(kh.edu.istad.contracts.customer.v1.UpdateCustomerRequest request) throws io.grpc.StatusException {
       return io.grpc.stub.ClientCalls.blockingV2UnaryCall(
           getChannel(), getUpdateCustomerMethod(), getCallOptions(), request);
     }
@@ -571,21 +571,21 @@ public final class CustomerServiceGrpc {
 
     /**
      */
-    public kh.edu.istad.contracts.customer.v1.ListCustomersResponse queryCustomers(kh.edu.istad.contracts.customer.v1.QueryCustomersRequest request) throws io.grpc.StatusException {
+    public kh.edu.istad.contracts.customer.v1.QueryCustomersResponse queryCustomers(kh.edu.istad.contracts.customer.v1.QueryCustomersRequest request) throws io.grpc.StatusException {
       return io.grpc.stub.ClientCalls.blockingV2UnaryCall(
           getChannel(), getQueryCustomersMethod(), getCallOptions(), request);
     }
 
     /**
      */
-    public kh.edu.istad.contracts.customer.v1.CustomerResponse assignCustomerSegment(kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentRequest request) throws io.grpc.StatusException {
+    public kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse assignCustomerSegment(kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentRequest request) throws io.grpc.StatusException {
       return io.grpc.stub.ClientCalls.blockingV2UnaryCall(
           getChannel(), getAssignCustomerSegmentMethod(), getCallOptions(), request);
     }
 
     /**
      */
-    public kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse getCustomerStatistics(kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsRequest request) throws io.grpc.StatusException {
+    public kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse getCustomerStatistics(kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsRequest request) throws io.grpc.StatusException {
       return io.grpc.stub.ClientCalls.blockingV2UnaryCall(
           getChannel(), getGetCustomerStatisticsMethod(), getCallOptions(), request);
     }
@@ -616,21 +616,21 @@ public final class CustomerServiceGrpc {
 
     /**
      */
-    public kh.edu.istad.contracts.customer.v1.CustomerResponse createCustomer(kh.edu.istad.contracts.customer.v1.CreateCustomerRequest request) {
+    public kh.edu.istad.contracts.customer.v1.CreateCustomerResponse createCustomer(kh.edu.istad.contracts.customer.v1.CreateCustomerRequest request) {
       return io.grpc.stub.ClientCalls.blockingUnaryCall(
           getChannel(), getCreateCustomerMethod(), getCallOptions(), request);
     }
 
     /**
      */
-    public kh.edu.istad.contracts.customer.v1.CustomerResponse getCustomer(kh.edu.istad.contracts.customer.v1.GetCustomerRequest request) {
+    public kh.edu.istad.contracts.customer.v1.GetCustomerResponse getCustomer(kh.edu.istad.contracts.customer.v1.GetCustomerRequest request) {
       return io.grpc.stub.ClientCalls.blockingUnaryCall(
           getChannel(), getGetCustomerMethod(), getCallOptions(), request);
     }
 
     /**
      */
-    public kh.edu.istad.contracts.customer.v1.CustomerResponse updateCustomer(kh.edu.istad.contracts.customer.v1.UpdateCustomerRequest request) {
+    public kh.edu.istad.contracts.customer.v1.UpdateCustomerResponse updateCustomer(kh.edu.istad.contracts.customer.v1.UpdateCustomerRequest request) {
       return io.grpc.stub.ClientCalls.blockingUnaryCall(
           getChannel(), getUpdateCustomerMethod(), getCallOptions(), request);
     }
@@ -651,21 +651,21 @@ public final class CustomerServiceGrpc {
 
     /**
      */
-    public kh.edu.istad.contracts.customer.v1.ListCustomersResponse queryCustomers(kh.edu.istad.contracts.customer.v1.QueryCustomersRequest request) {
+    public kh.edu.istad.contracts.customer.v1.QueryCustomersResponse queryCustomers(kh.edu.istad.contracts.customer.v1.QueryCustomersRequest request) {
       return io.grpc.stub.ClientCalls.blockingUnaryCall(
           getChannel(), getQueryCustomersMethod(), getCallOptions(), request);
     }
 
     /**
      */
-    public kh.edu.istad.contracts.customer.v1.CustomerResponse assignCustomerSegment(kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentRequest request) {
+    public kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse assignCustomerSegment(kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentRequest request) {
       return io.grpc.stub.ClientCalls.blockingUnaryCall(
           getChannel(), getAssignCustomerSegmentMethod(), getCallOptions(), request);
     }
 
     /**
      */
-    public kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse getCustomerStatistics(kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsRequest request) {
+    public kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse getCustomerStatistics(kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsRequest request) {
       return io.grpc.stub.ClientCalls.blockingUnaryCall(
           getChannel(), getGetCustomerStatisticsMethod(), getCallOptions(), request);
     }
@@ -696,7 +696,7 @@ public final class CustomerServiceGrpc {
 
     /**
      */
-    public com.google.common.util.concurrent.ListenableFuture<kh.edu.istad.contracts.customer.v1.CustomerResponse> createCustomer(
+    public com.google.common.util.concurrent.ListenableFuture<kh.edu.istad.contracts.customer.v1.CreateCustomerResponse> createCustomer(
         kh.edu.istad.contracts.customer.v1.CreateCustomerRequest request) {
       return io.grpc.stub.ClientCalls.futureUnaryCall(
           getChannel().newCall(getCreateCustomerMethod(), getCallOptions()), request);
@@ -704,7 +704,7 @@ public final class CustomerServiceGrpc {
 
     /**
      */
-    public com.google.common.util.concurrent.ListenableFuture<kh.edu.istad.contracts.customer.v1.CustomerResponse> getCustomer(
+    public com.google.common.util.concurrent.ListenableFuture<kh.edu.istad.contracts.customer.v1.GetCustomerResponse> getCustomer(
         kh.edu.istad.contracts.customer.v1.GetCustomerRequest request) {
       return io.grpc.stub.ClientCalls.futureUnaryCall(
           getChannel().newCall(getGetCustomerMethod(), getCallOptions()), request);
@@ -712,7 +712,7 @@ public final class CustomerServiceGrpc {
 
     /**
      */
-    public com.google.common.util.concurrent.ListenableFuture<kh.edu.istad.contracts.customer.v1.CustomerResponse> updateCustomer(
+    public com.google.common.util.concurrent.ListenableFuture<kh.edu.istad.contracts.customer.v1.UpdateCustomerResponse> updateCustomer(
         kh.edu.istad.contracts.customer.v1.UpdateCustomerRequest request) {
       return io.grpc.stub.ClientCalls.futureUnaryCall(
           getChannel().newCall(getUpdateCustomerMethod(), getCallOptions()), request);
@@ -736,7 +736,7 @@ public final class CustomerServiceGrpc {
 
     /**
      */
-    public com.google.common.util.concurrent.ListenableFuture<kh.edu.istad.contracts.customer.v1.ListCustomersResponse> queryCustomers(
+    public com.google.common.util.concurrent.ListenableFuture<kh.edu.istad.contracts.customer.v1.QueryCustomersResponse> queryCustomers(
         kh.edu.istad.contracts.customer.v1.QueryCustomersRequest request) {
       return io.grpc.stub.ClientCalls.futureUnaryCall(
           getChannel().newCall(getQueryCustomersMethod(), getCallOptions()), request);
@@ -744,7 +744,7 @@ public final class CustomerServiceGrpc {
 
     /**
      */
-    public com.google.common.util.concurrent.ListenableFuture<kh.edu.istad.contracts.customer.v1.CustomerResponse> assignCustomerSegment(
+    public com.google.common.util.concurrent.ListenableFuture<kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse> assignCustomerSegment(
         kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentRequest request) {
       return io.grpc.stub.ClientCalls.futureUnaryCall(
           getChannel().newCall(getAssignCustomerSegmentMethod(), getCallOptions()), request);
@@ -752,7 +752,7 @@ public final class CustomerServiceGrpc {
 
     /**
      */
-    public com.google.common.util.concurrent.ListenableFuture<kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse> getCustomerStatistics(
+    public com.google.common.util.concurrent.ListenableFuture<kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse> getCustomerStatistics(
         kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsRequest request) {
       return io.grpc.stub.ClientCalls.futureUnaryCall(
           getChannel().newCall(getGetCustomerStatisticsMethod(), getCallOptions()), request);
@@ -796,15 +796,15 @@ public final class CustomerServiceGrpc {
       switch (methodId) {
         case METHODID_CREATE_CUSTOMER:
           serviceImpl.createCustomer((kh.edu.istad.contracts.customer.v1.CreateCustomerRequest) request,
-              (io.grpc.stub.StreamObserver<kh.edu.istad.contracts.customer.v1.CustomerResponse>) responseObserver);
+              (io.grpc.stub.StreamObserver<kh.edu.istad.contracts.customer.v1.CreateCustomerResponse>) responseObserver);
           break;
         case METHODID_GET_CUSTOMER:
           serviceImpl.getCustomer((kh.edu.istad.contracts.customer.v1.GetCustomerRequest) request,
-              (io.grpc.stub.StreamObserver<kh.edu.istad.contracts.customer.v1.CustomerResponse>) responseObserver);
+              (io.grpc.stub.StreamObserver<kh.edu.istad.contracts.customer.v1.GetCustomerResponse>) responseObserver);
           break;
         case METHODID_UPDATE_CUSTOMER:
           serviceImpl.updateCustomer((kh.edu.istad.contracts.customer.v1.UpdateCustomerRequest) request,
-              (io.grpc.stub.StreamObserver<kh.edu.istad.contracts.customer.v1.CustomerResponse>) responseObserver);
+              (io.grpc.stub.StreamObserver<kh.edu.istad.contracts.customer.v1.UpdateCustomerResponse>) responseObserver);
           break;
         case METHODID_DELETE_CUSTOMER:
           serviceImpl.deleteCustomer((kh.edu.istad.contracts.customer.v1.DeleteCustomerRequest) request,
@@ -816,15 +816,15 @@ public final class CustomerServiceGrpc {
           break;
         case METHODID_QUERY_CUSTOMERS:
           serviceImpl.queryCustomers((kh.edu.istad.contracts.customer.v1.QueryCustomersRequest) request,
-              (io.grpc.stub.StreamObserver<kh.edu.istad.contracts.customer.v1.ListCustomersResponse>) responseObserver);
+              (io.grpc.stub.StreamObserver<kh.edu.istad.contracts.customer.v1.QueryCustomersResponse>) responseObserver);
           break;
         case METHODID_ASSIGN_CUSTOMER_SEGMENT:
           serviceImpl.assignCustomerSegment((kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentRequest) request,
-              (io.grpc.stub.StreamObserver<kh.edu.istad.contracts.customer.v1.CustomerResponse>) responseObserver);
+              (io.grpc.stub.StreamObserver<kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse>) responseObserver);
           break;
         case METHODID_GET_CUSTOMER_STATISTICS:
           serviceImpl.getCustomerStatistics((kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsRequest) request,
-              (io.grpc.stub.StreamObserver<kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse>) responseObserver);
+              (io.grpc.stub.StreamObserver<kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse>) responseObserver);
           break;
         case METHODID_VALIDATE_CUSTOMER:
           serviceImpl.validateCustomer((kh.edu.istad.contracts.customer.v1.ValidateCustomerRequest) request,
@@ -853,21 +853,21 @@ public final class CustomerServiceGrpc {
           io.grpc.stub.ServerCalls.asyncUnaryCall(
             new MethodHandlers<
               kh.edu.istad.contracts.customer.v1.CreateCustomerRequest,
-              kh.edu.istad.contracts.customer.v1.CustomerResponse>(
+              kh.edu.istad.contracts.customer.v1.CreateCustomerResponse>(
                 service, METHODID_CREATE_CUSTOMER)))
         .addMethod(
           getGetCustomerMethod(),
           io.grpc.stub.ServerCalls.asyncUnaryCall(
             new MethodHandlers<
               kh.edu.istad.contracts.customer.v1.GetCustomerRequest,
-              kh.edu.istad.contracts.customer.v1.CustomerResponse>(
+              kh.edu.istad.contracts.customer.v1.GetCustomerResponse>(
                 service, METHODID_GET_CUSTOMER)))
         .addMethod(
           getUpdateCustomerMethod(),
           io.grpc.stub.ServerCalls.asyncUnaryCall(
             new MethodHandlers<
               kh.edu.istad.contracts.customer.v1.UpdateCustomerRequest,
-              kh.edu.istad.contracts.customer.v1.CustomerResponse>(
+              kh.edu.istad.contracts.customer.v1.UpdateCustomerResponse>(
                 service, METHODID_UPDATE_CUSTOMER)))
         .addMethod(
           getDeleteCustomerMethod(),
@@ -888,21 +888,21 @@ public final class CustomerServiceGrpc {
           io.grpc.stub.ServerCalls.asyncUnaryCall(
             new MethodHandlers<
               kh.edu.istad.contracts.customer.v1.QueryCustomersRequest,
-              kh.edu.istad.contracts.customer.v1.ListCustomersResponse>(
+              kh.edu.istad.contracts.customer.v1.QueryCustomersResponse>(
                 service, METHODID_QUERY_CUSTOMERS)))
         .addMethod(
           getAssignCustomerSegmentMethod(),
           io.grpc.stub.ServerCalls.asyncUnaryCall(
             new MethodHandlers<
               kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentRequest,
-              kh.edu.istad.contracts.customer.v1.CustomerResponse>(
+              kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse>(
                 service, METHODID_ASSIGN_CUSTOMER_SEGMENT)))
         .addMethod(
           getGetCustomerStatisticsMethod(),
           io.grpc.stub.ServerCalls.asyncUnaryCall(
             new MethodHandlers<
               kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsRequest,
-              kh.edu.istad.contracts.customer.v1.CustomerStatisticsResponse>(
+              kh.edu.istad.contracts.customer.v1.GetCustomerStatisticsResponse>(
                 service, METHODID_GET_CUSTOMER_STATISTICS)))
         .addMethod(
           getValidateCustomerMethod(),

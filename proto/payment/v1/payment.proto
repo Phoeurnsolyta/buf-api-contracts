@@ -2,20 +2,17 @@ syntax = "proto3";
 
 package payment.v1;
 
-option java_package = "kh.edu.istad.contracts.payment.v1";
-option java_multiple_files = true;
-
 import "google/protobuf/timestamp.proto";
 
+option java_multiple_files = true;
+option java_package = "kh.edu.istad.contracts.payment.v1";
+
 service PaymentService {
-  rpc CreatePayment(CreatePaymentRequest)
-      returns (CreatePaymentResponse);
+  rpc CreatePayment(CreatePaymentRequest) returns (CreatePaymentResponse);
 
-  rpc GetPayment(GetPaymentRequest)
-      returns (GetPaymentResponse);
+  rpc GetPayment(GetPaymentRequest) returns (GetPaymentResponse);
 
-  rpc UpdatePaymentStatus(UpdatePaymentStatusRequest)
-      returns (UpdatePaymentStatusResponse);
+  rpc UpdatePaymentStatus(UpdatePaymentStatusRequest) returns (UpdatePaymentStatusResponse);
 }
 
 message Payment {

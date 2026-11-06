@@ -37,15 +37,30 @@ public final class CustomerOuterClass extends com.google.protobuf.GeneratedFile 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_customer_v1_CreateCustomerRequest_fieldAccessorTable;
   static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_customer_v1_CreateCustomerResponse_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      internal_static_customer_v1_CreateCustomerResponse_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
     internal_static_customer_v1_GetCustomerRequest_descriptor;
   static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_customer_v1_GetCustomerRequest_fieldAccessorTable;
   static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_customer_v1_GetCustomerResponse_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      internal_static_customer_v1_GetCustomerResponse_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
     internal_static_customer_v1_UpdateCustomerRequest_descriptor;
   static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_customer_v1_UpdateCustomerRequest_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_customer_v1_UpdateCustomerResponse_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      internal_static_customer_v1_UpdateCustomerResponse_fieldAccessorTable;
   static final com.google.protobuf.Descriptors.Descriptor
     internal_static_customer_v1_DeleteCustomerRequest_descriptor;
   static final 
@@ -56,11 +71,6 @@ public final class CustomerOuterClass extends com.google.protobuf.GeneratedFile 
   static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_customer_v1_DeleteCustomerResponse_fieldAccessorTable;
-  static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_customer_v1_CustomerResponse_descriptor;
-  static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
-      internal_static_customer_v1_CustomerResponse_fieldAccessorTable;
   static final com.google.protobuf.Descriptors.Descriptor
     internal_static_customer_v1_ListCustomersRequest_descriptor;
   static final 
@@ -77,20 +87,30 @@ public final class CustomerOuterClass extends com.google.protobuf.GeneratedFile 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_customer_v1_QueryCustomersRequest_fieldAccessorTable;
   static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_customer_v1_QueryCustomersResponse_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      internal_static_customer_v1_QueryCustomersResponse_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
     internal_static_customer_v1_AssignCustomerSegmentRequest_descriptor;
   static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_customer_v1_AssignCustomerSegmentRequest_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_customer_v1_AssignCustomerSegmentResponse_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      internal_static_customer_v1_AssignCustomerSegmentResponse_fieldAccessorTable;
   static final com.google.protobuf.Descriptors.Descriptor
     internal_static_customer_v1_GetCustomerStatisticsRequest_descriptor;
   static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_customer_v1_GetCustomerStatisticsRequest_fieldAccessorTable;
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_customer_v1_CustomerStatisticsResponse_descriptor;
+    internal_static_customer_v1_GetCustomerStatisticsResponse_descriptor;
   static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
-      internal_static_customer_v1_CustomerStatisticsResponse_fieldAccessorTable;
+      internal_static_customer_v1_GetCustomerStatisticsResponse_fieldAccessorTable;
   static final com.google.protobuf.Descriptors.Descriptor
     internal_static_customer_v1_ValidateCustomerRequest_descriptor;
   static final 
@@ -119,52 +139,61 @@ public final class CustomerOuterClass extends com.google.protobuf.GeneratedFile 
       "\211\001\n\025CreateCustomerRequest\022\032\n\010username\030\001 " +
       "\001(\tR\010username\022\024\n\005email\030\002 \001(\tR\005email\022\035\n\ng" +
       "iven_name\030\003 \001(\tR\tgivenName\022\037\n\013family_nam" +
-      "e\030\004 \001(\tR\nfamilyName\"5\n\022GetCustomerReques" +
-      "t\022\037\n\013customer_id\030\001 \001(\tR\ncustomerId\"x\n\025Up" +
-      "dateCustomerRequest\022\037\n\013customer_id\030\001 \001(\t" +
-      "R\ncustomerId\022\035\n\ngiven_name\030\002 \001(\tR\tgivenN" +
-      "ame\022\037\n\013family_name\030\003 \001(\tR\nfamilyName\"8\n\025" +
-      "DeleteCustomerRequest\022\037\n\013customer_id\030\001 \001" +
-      "(\tR\ncustomerId\"2\n\026DeleteCustomerResponse" +
-      "\022\030\n\007deleted\030\001 \001(\010R\007deleted\"E\n\020CustomerRe" +
-      "sponse\0221\n\010customer\030\001 \001(\0132\025.customer.v1.C" +
-      "ustomerR\010customer\"\026\n\024ListCustomersReques" +
-      "t\"L\n\025ListCustomersResponse\0223\n\tcustomers\030" +
-      "\001 \003(\0132\025.customer.v1.CustomerR\tcustomers\"" +
-      "a\n\025QueryCustomersRequest\022\032\n\010username\030\001 \001" +
-      "(\tR\010username\022\024\n\005email\030\002 \001(\tR\005email\022\026\n\006st" +
-      "atus\030\003 \001(\tR\006status\"^\n\034AssignCustomerSegm" +
-      "entRequest\022\037\n\013customer_id\030\001 \001(\tR\ncustome" +
-      "rId\022\035\n\nsegment_id\030\002 \001(\tR\tsegmentId\"\036\n\034Ge" +
-      "tCustomerStatisticsRequest\"E\n\032CustomerSt" +
-      "atisticsResponse\022\'\n\017total_customers\030\001 \001(" +
-      "\003R\016totalCustomers\":\n\027ValidateCustomerReq" +
-      "uest\022\037\n\013customer_id\030\001 \001(\tR\ncustomerId\"k\n" +
-      "\030ValidateCustomerResponse\022\037\n\013customer_id" +
-      "\030\001 \001(\tR\ncustomerId\022\026\n\006exists\030\002 \001(\010R\006exis" +
-      "ts\022\026\n\006active\030\003 \001(\010R\006active2\310\006\n\017CustomerS" +
-      "ervice\022S\n\016CreateCustomer\022\".customer.v1.C" +
-      "reateCustomerRequest\032\035.customer.v1.Custo" +
-      "merResponse\022M\n\013GetCustomer\022\037.customer.v1" +
-      ".GetCustomerRequest\032\035.customer.v1.Custom" +
-      "erResponse\022S\n\016UpdateCustomer\022\".customer." +
-      "v1.UpdateCustomerRequest\032\035.customer.v1.C" +
-      "ustomerResponse\022Y\n\016DeleteCustomer\022\".cust" +
-      "omer.v1.DeleteCustomerRequest\032#.customer" +
-      ".v1.DeleteCustomerResponse\022V\n\rListCustom" +
-      "ers\022!.customer.v1.ListCustomersRequest\032\"" +
-      ".customer.v1.ListCustomersResponse\022X\n\016Qu" +
-      "eryCustomers\022\".customer.v1.QueryCustomer" +
-      "sRequest\032\".customer.v1.ListCustomersResp" +
-      "onse\022a\n\025AssignCustomerSegment\022).customer" +
-      ".v1.AssignCustomerSegmentRequest\032\035.custo" +
-      "mer.v1.CustomerResponse\022k\n\025GetCustomerSt" +
-      "atistics\022).customer.v1.GetCustomerStatis" +
-      "ticsRequest\032\'.customer.v1.CustomerStatis" +
-      "ticsResponse\022_\n\020ValidateCustomer\022$.custo" +
-      "mer.v1.ValidateCustomerRequest\032%.custome" +
-      "r.v1.ValidateCustomerResponseB&\n\"kh.edu." +
-      "istad.contracts.customer.v1P\001b\006proto3"
+      "e\030\004 \001(\tR\nfamilyName\"K\n\026CreateCustomerRes" +
+      "ponse\0221\n\010customer\030\001 \001(\0132\025.customer.v1.Cu" +
+      "stomerR\010customer\"5\n\022GetCustomerRequest\022\037" +
+      "\n\013customer_id\030\001 \001(\tR\ncustomerId\"H\n\023GetCu" +
+      "stomerResponse\0221\n\010customer\030\001 \001(\0132\025.custo" +
+      "mer.v1.CustomerR\010customer\"x\n\025UpdateCusto" +
+      "merRequest\022\037\n\013customer_id\030\001 \001(\tR\ncustome" +
+      "rId\022\035\n\ngiven_name\030\002 \001(\tR\tgivenName\022\037\n\013fa" +
+      "mily_name\030\003 \001(\tR\nfamilyName\"K\n\026UpdateCus" +
+      "tomerResponse\0221\n\010customer\030\001 \001(\0132\025.custom" +
+      "er.v1.CustomerR\010customer\"8\n\025DeleteCustom" +
+      "erRequest\022\037\n\013customer_id\030\001 \001(\tR\ncustomer" +
+      "Id\"2\n\026DeleteCustomerResponse\022\030\n\007deleted\030" +
+      "\001 \001(\010R\007deleted\"\026\n\024ListCustomersRequest\"L" +
+      "\n\025ListCustomersResponse\0223\n\tcustomers\030\001 \003" +
+      "(\0132\025.customer.v1.CustomerR\tcustomers\"a\n\025" +
+      "QueryCustomersRequest\022\032\n\010username\030\001 \001(\tR" +
+      "\010username\022\024\n\005email\030\002 \001(\tR\005email\022\026\n\006statu" +
+      "s\030\003 \001(\tR\006status\"M\n\026QueryCustomersRespons" +
+      "e\0223\n\tcustomers\030\001 \003(\0132\025.customer.v1.Custo" +
+      "merR\tcustomers\"^\n\034AssignCustomerSegmentR" +
+      "equest\022\037\n\013customer_id\030\001 \001(\tR\ncustomerId\022" +
+      "\035\n\nsegment_id\030\002 \001(\tR\tsegmentId\"R\n\035Assign" +
+      "CustomerSegmentResponse\0221\n\010customer\030\001 \001(" +
+      "\0132\025.customer.v1.CustomerR\010customer\"\036\n\034Ge" +
+      "tCustomerStatisticsRequest\"H\n\035GetCustome" +
+      "rStatisticsResponse\022\'\n\017total_customers\030\001" +
+      " \001(\003R\016totalCustomers\":\n\027ValidateCustomer" +
+      "Request\022\037\n\013customer_id\030\001 \001(\tR\ncustomerId" +
+      "\"k\n\030ValidateCustomerResponse\022\037\n\013customer" +
+      "_id\030\001 \001(\tR\ncustomerId\022\026\n\006exists\030\002 \001(\010R\006e" +
+      "xists\022\026\n\006active\030\003 \001(\010R\006active2\350\006\n\017Custom" +
+      "erService\022Y\n\016CreateCustomer\022\".customer.v" +
+      "1.CreateCustomerRequest\032#.customer.v1.Cr" +
+      "eateCustomerResponse\022P\n\013GetCustomer\022\037.cu" +
+      "stomer.v1.GetCustomerRequest\032 .customer." +
+      "v1.GetCustomerResponse\022Y\n\016UpdateCustomer" +
+      "\022\".customer.v1.UpdateCustomerRequest\032#.c" +
+      "ustomer.v1.UpdateCustomerResponse\022Y\n\016Del" +
+      "eteCustomer\022\".customer.v1.DeleteCustomer" +
+      "Request\032#.customer.v1.DeleteCustomerResp" +
+      "onse\022V\n\rListCustomers\022!.customer.v1.List" +
+      "CustomersRequest\032\".customer.v1.ListCusto" +
+      "mersResponse\022Y\n\016QueryCustomers\022\".custome" +
+      "r.v1.QueryCustomersRequest\032#.customer.v1" +
+      ".QueryCustomersResponse\022n\n\025AssignCustome" +
+      "rSegment\022).customer.v1.AssignCustomerSeg" +
+      "mentRequest\032*.customer.v1.AssignCustomer" +
+      "SegmentResponse\022n\n\025GetCustomerStatistics" +
+      "\022).customer.v1.GetCustomerStatisticsRequ" +
+      "est\032*.customer.v1.GetCustomerStatisticsR" +
+      "esponse\022_\n\020ValidateCustomer\022$.customer.v" +
+      "1.ValidateCustomerRequest\032%.customer.v1." +
+      "ValidateCustomerResponseB&\n\"kh.edu.istad" +
+      ".contracts.customer.v1P\001b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -182,80 +211,104 @@ public final class CustomerOuterClass extends com.google.protobuf.GeneratedFile 
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_customer_v1_CreateCustomerRequest_descriptor,
         new java.lang.String[] { "Username", "Email", "GivenName", "FamilyName", });
-    internal_static_customer_v1_GetCustomerRequest_descriptor =
+    internal_static_customer_v1_CreateCustomerResponse_descriptor =
       getDescriptor().getMessageType(2);
+    internal_static_customer_v1_CreateCustomerResponse_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+        internal_static_customer_v1_CreateCustomerResponse_descriptor,
+        new java.lang.String[] { "Customer", });
+    internal_static_customer_v1_GetCustomerRequest_descriptor =
+      getDescriptor().getMessageType(3);
     internal_static_customer_v1_GetCustomerRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_customer_v1_GetCustomerRequest_descriptor,
         new java.lang.String[] { "CustomerId", });
+    internal_static_customer_v1_GetCustomerResponse_descriptor =
+      getDescriptor().getMessageType(4);
+    internal_static_customer_v1_GetCustomerResponse_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+        internal_static_customer_v1_GetCustomerResponse_descriptor,
+        new java.lang.String[] { "Customer", });
     internal_static_customer_v1_UpdateCustomerRequest_descriptor =
-      getDescriptor().getMessageType(3);
+      getDescriptor().getMessageType(5);
     internal_static_customer_v1_UpdateCustomerRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_customer_v1_UpdateCustomerRequest_descriptor,
         new java.lang.String[] { "CustomerId", "GivenName", "FamilyName", });
+    internal_static_customer_v1_UpdateCustomerResponse_descriptor =
+      getDescriptor().getMessageType(6);
+    internal_static_customer_v1_UpdateCustomerResponse_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+        internal_static_customer_v1_UpdateCustomerResponse_descriptor,
+        new java.lang.String[] { "Customer", });
     internal_static_customer_v1_DeleteCustomerRequest_descriptor =
-      getDescriptor().getMessageType(4);
+      getDescriptor().getMessageType(7);
     internal_static_customer_v1_DeleteCustomerRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_customer_v1_DeleteCustomerRequest_descriptor,
         new java.lang.String[] { "CustomerId", });
     internal_static_customer_v1_DeleteCustomerResponse_descriptor =
-      getDescriptor().getMessageType(5);
+      getDescriptor().getMessageType(8);
     internal_static_customer_v1_DeleteCustomerResponse_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_customer_v1_DeleteCustomerResponse_descriptor,
         new java.lang.String[] { "Deleted", });
-    internal_static_customer_v1_CustomerResponse_descriptor =
-      getDescriptor().getMessageType(6);
-    internal_static_customer_v1_CustomerResponse_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
-        internal_static_customer_v1_CustomerResponse_descriptor,
-        new java.lang.String[] { "Customer", });
     internal_static_customer_v1_ListCustomersRequest_descriptor =
-      getDescriptor().getMessageType(7);
+      getDescriptor().getMessageType(9);
     internal_static_customer_v1_ListCustomersRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_customer_v1_ListCustomersRequest_descriptor,
         new java.lang.String[] { });
     internal_static_customer_v1_ListCustomersResponse_descriptor =
-      getDescriptor().getMessageType(8);
+      getDescriptor().getMessageType(10);
     internal_static_customer_v1_ListCustomersResponse_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_customer_v1_ListCustomersResponse_descriptor,
         new java.lang.String[] { "Customers", });
     internal_static_customer_v1_QueryCustomersRequest_descriptor =
-      getDescriptor().getMessageType(9);
+      getDescriptor().getMessageType(11);
     internal_static_customer_v1_QueryCustomersRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_customer_v1_QueryCustomersRequest_descriptor,
         new java.lang.String[] { "Username", "Email", "Status", });
+    internal_static_customer_v1_QueryCustomersResponse_descriptor =
+      getDescriptor().getMessageType(12);
+    internal_static_customer_v1_QueryCustomersResponse_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+        internal_static_customer_v1_QueryCustomersResponse_descriptor,
+        new java.lang.String[] { "Customers", });
     internal_static_customer_v1_AssignCustomerSegmentRequest_descriptor =
-      getDescriptor().getMessageType(10);
+      getDescriptor().getMessageType(13);
     internal_static_customer_v1_AssignCustomerSegmentRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_customer_v1_AssignCustomerSegmentRequest_descriptor,
         new java.lang.String[] { "CustomerId", "SegmentId", });
+    internal_static_customer_v1_AssignCustomerSegmentResponse_descriptor =
+      getDescriptor().getMessageType(14);
+    internal_static_customer_v1_AssignCustomerSegmentResponse_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+        internal_static_customer_v1_AssignCustomerSegmentResponse_descriptor,
+        new java.lang.String[] { "Customer", });
     internal_static_customer_v1_GetCustomerStatisticsRequest_descriptor =
-      getDescriptor().getMessageType(11);
+      getDescriptor().getMessageType(15);
     internal_static_customer_v1_GetCustomerStatisticsRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_customer_v1_GetCustomerStatisticsRequest_descriptor,
         new java.lang.String[] { });
-    internal_static_customer_v1_CustomerStatisticsResponse_descriptor =
-      getDescriptor().getMessageType(12);
-    internal_static_customer_v1_CustomerStatisticsResponse_fieldAccessorTable = new
+    internal_static_customer_v1_GetCustomerStatisticsResponse_descriptor =
+      getDescriptor().getMessageType(16);
+    internal_static_customer_v1_GetCustomerStatisticsResponse_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
-        internal_static_customer_v1_CustomerStatisticsResponse_descriptor,
+        internal_static_customer_v1_GetCustomerStatisticsResponse_descriptor,
         new java.lang.String[] { "TotalCustomers", });
     internal_static_customer_v1_ValidateCustomerRequest_descriptor =
-      getDescriptor().getMessageType(13);
+      getDescriptor().getMessageType(17);
     internal_static_customer_v1_ValidateCustomerRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_customer_v1_ValidateCustomerRequest_descriptor,
         new java.lang.String[] { "CustomerId", });
     internal_static_customer_v1_ValidateCustomerResponse_descriptor =
-      getDescriptor().getMessageType(14);
+      getDescriptor().getMessageType(18);
     internal_static_customer_v1_ValidateCustomerResponse_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_customer_v1_ValidateCustomerResponse_descriptor,

@@ -6,13 +6,13 @@
 package kh.edu.istad.contracts.customer.v1;
 
 /**
- * Protobuf type {@code customer.v1.CustomerResponse}
+ * Protobuf type {@code customer.v1.AssignCustomerSegmentResponse}
  */
 @com.google.protobuf.Generated
-public final class CustomerResponse extends
+public final class AssignCustomerSegmentResponse extends
     com.google.protobuf.GeneratedMessage implements
-    // @@protoc_insertion_point(message_implements:customer.v1.CustomerResponse)
-    CustomerResponseOrBuilder {
+    // @@protoc_insertion_point(message_implements:customer.v1.AssignCustomerSegmentResponse)
+    AssignCustomerSegmentResponseOrBuilder {
 private static final long serialVersionUID = 0L;
   static {
     com.google.protobuf.RuntimeVersion.validateProtobufGencodeVersion(
@@ -21,31 +21,31 @@ private static final long serialVersionUID = 0L;
       /* minor= */ 36,
       /* patch= */ 2,
       /* suffix= */ "",
-      "CustomerResponse");
+      "AssignCustomerSegmentResponse");
   }
-  // Use CustomerResponse.newBuilder() to construct.
-  private CustomerResponse(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+  // Use AssignCustomerSegmentResponse.newBuilder() to construct.
+  private AssignCustomerSegmentResponse(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
     super(builder);
   }
-  private CustomerResponse() {
+  private AssignCustomerSegmentResponse() {
   }
 
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return kh.edu.istad.contracts.customer.v1.CustomerOuterClass.internal_static_customer_v1_CustomerResponse_descriptor;
+    return kh.edu.istad.contracts.customer.v1.CustomerOuterClass.internal_static_customer_v1_AssignCustomerSegmentResponse_descriptor;
   }
 
   @java.lang.Override
   public com.google.protobuf.Descriptors.Descriptor getDescriptorForType() {
-    return kh.edu.istad.contracts.customer.v1.CustomerOuterClass.internal_static_customer_v1_CustomerResponse_descriptor;
+    return kh.edu.istad.contracts.customer.v1.CustomerOuterClass.internal_static_customer_v1_AssignCustomerSegmentResponse_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return kh.edu.istad.contracts.customer.v1.CustomerOuterClass.internal_static_customer_v1_CustomerResponse_fieldAccessorTable
+    return kh.edu.istad.contracts.customer.v1.CustomerOuterClass.internal_static_customer_v1_AssignCustomerSegmentResponse_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
-            kh.edu.istad.contracts.customer.v1.CustomerResponse.class, kh.edu.istad.contracts.customer.v1.CustomerResponse.Builder.class);
+            kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse.class, kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse.Builder.class);
   }
 
   private int bitField0_;
@@ -119,10 +119,10 @@ private static final long serialVersionUID = 0L;
     if (obj == this) {
      return true;
     }
-    if (!(obj instanceof kh.edu.istad.contracts.customer.v1.CustomerResponse)) {
+    if (!(obj instanceof kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse)) {
       return super.equals(obj);
     }
-    kh.edu.istad.contracts.customer.v1.CustomerResponse other = (kh.edu.istad.contracts.customer.v1.CustomerResponse) obj;
+    kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse other = (kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse) obj;
 
     if (hasCustomer() != other.hasCustomer()) return false;
     if (hasCustomer()) {
@@ -149,44 +149,44 @@ private static final long serialVersionUID = 0L;
     return hash;
   }
 
-  public static kh.edu.istad.contracts.customer.v1.CustomerResponse parseFrom(
+  public static kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse parseFrom(
       java.nio.ByteBuffer data)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data);
   }
-  public static kh.edu.istad.contracts.customer.v1.CustomerResponse parseFrom(
+  public static kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse parseFrom(
       java.nio.ByteBuffer data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data, extensionRegistry);
   }
-  public static kh.edu.istad.contracts.customer.v1.CustomerResponse parseFrom(
+  public static kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse parseFrom(
       com.google.protobuf.ByteString data)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data);
   }
-  public static kh.edu.istad.contracts.customer.v1.CustomerResponse parseFrom(
+  public static kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse parseFrom(
       com.google.protobuf.ByteString data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data, extensionRegistry);
   }
-  public static kh.edu.istad.contracts.customer.v1.CustomerResponse parseFrom(byte[] data)
+  public static kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse parseFrom(byte[] data)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data);
   }
-  public static kh.edu.istad.contracts.customer.v1.CustomerResponse parseFrom(
+  public static kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse parseFrom(
       byte[] data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data, extensionRegistry);
   }
-  public static kh.edu.istad.contracts.customer.v1.CustomerResponse parseFrom(java.io.InputStream input)
+  public static kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse parseFrom(java.io.InputStream input)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessage
         .parseWithIOException(PARSER, input);
   }
-  public static kh.edu.istad.contracts.customer.v1.CustomerResponse parseFrom(
+  public static kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse parseFrom(
       java.io.InputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
@@ -194,26 +194,26 @@ private static final long serialVersionUID = 0L;
         .parseWithIOException(PARSER, input, extensionRegistry);
   }
 
-  public static kh.edu.istad.contracts.customer.v1.CustomerResponse parseDelimitedFrom(java.io.InputStream input)
+  public static kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse parseDelimitedFrom(java.io.InputStream input)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessage
         .parseDelimitedWithIOException(PARSER, input);
   }
 
-  public static kh.edu.istad.contracts.customer.v1.CustomerResponse parseDelimitedFrom(
+  public static kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse parseDelimitedFrom(
       java.io.InputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessage
         .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
   }
-  public static kh.edu.istad.contracts.customer.v1.CustomerResponse parseFrom(
+  public static kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse parseFrom(
       com.google.protobuf.CodedInputStream input)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessage
         .parseWithIOException(PARSER, input);
   }
-  public static kh.edu.istad.contracts.customer.v1.CustomerResponse parseFrom(
+  public static kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse parseFrom(
       com.google.protobuf.CodedInputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
@@ -226,7 +226,7 @@ private static final long serialVersionUID = 0L;
   public static Builder newBuilder() {
     return DEFAULT_INSTANCE.toBuilder();
   }
-  public static Builder newBuilder(kh.edu.istad.contracts.customer.v1.CustomerResponse prototype) {
+  public static Builder newBuilder(kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse prototype) {
     return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
   }
   @java.lang.Override
@@ -242,26 +242,26 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code customer.v1.CustomerResponse}
+   * Protobuf type {@code customer.v1.AssignCustomerSegmentResponse}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:customer.v1.CustomerResponse)
-      kh.edu.istad.contracts.customer.v1.CustomerResponseOrBuilder {
+      // @@protoc_insertion_point(builder_implements:customer.v1.AssignCustomerSegmentResponse)
+      kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponseOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return kh.edu.istad.contracts.customer.v1.CustomerOuterClass.internal_static_customer_v1_CustomerResponse_descriptor;
+      return kh.edu.istad.contracts.customer.v1.CustomerOuterClass.internal_static_customer_v1_AssignCustomerSegmentResponse_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return kh.edu.istad.contracts.customer.v1.CustomerOuterClass.internal_static_customer_v1_CustomerResponse_fieldAccessorTable
+      return kh.edu.istad.contracts.customer.v1.CustomerOuterClass.internal_static_customer_v1_AssignCustomerSegmentResponse_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              kh.edu.istad.contracts.customer.v1.CustomerResponse.class, kh.edu.istad.contracts.customer.v1.CustomerResponse.Builder.class);
+              kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse.class, kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse.Builder.class);
     }
 
-    // Construct using kh.edu.istad.contracts.customer.v1.CustomerResponse.newBuilder()
+    // Construct using kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse.newBuilder()
     private Builder() {
       maybeForceBuilderInitialization();
     }
@@ -292,17 +292,17 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return kh.edu.istad.contracts.customer.v1.CustomerOuterClass.internal_static_customer_v1_CustomerResponse_descriptor;
+      return kh.edu.istad.contracts.customer.v1.CustomerOuterClass.internal_static_customer_v1_AssignCustomerSegmentResponse_descriptor;
     }
 
     @java.lang.Override
-    public kh.edu.istad.contracts.customer.v1.CustomerResponse getDefaultInstanceForType() {
-      return kh.edu.istad.contracts.customer.v1.CustomerResponse.getDefaultInstance();
+    public kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse getDefaultInstanceForType() {
+      return kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse.getDefaultInstance();
     }
 
     @java.lang.Override
-    public kh.edu.istad.contracts.customer.v1.CustomerResponse build() {
-      kh.edu.istad.contracts.customer.v1.CustomerResponse result = buildPartial();
+    public kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse build() {
+      kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse result = buildPartial();
       if (!result.isInitialized()) {
         throw newUninitializedMessageException(result);
       }
@@ -310,14 +310,14 @@ private static final long serialVersionUID = 0L;
     }
 
     @java.lang.Override
-    public kh.edu.istad.contracts.customer.v1.CustomerResponse buildPartial() {
-      kh.edu.istad.contracts.customer.v1.CustomerResponse result = new kh.edu.istad.contracts.customer.v1.CustomerResponse(this);
+    public kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse buildPartial() {
+      kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse result = new kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse(this);
       if (bitField0_ != 0) { buildPartial0(result); }
       onBuilt();
       return result;
     }
 
-    private void buildPartial0(kh.edu.istad.contracts.customer.v1.CustomerResponse result) {
+    private void buildPartial0(kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse result) {
       int from_bitField0_ = bitField0_;
       int to_bitField0_ = 0;
       if (((from_bitField0_ & 0x00000001) != 0)) {
@@ -331,16 +331,16 @@ private static final long serialVersionUID = 0L;
 
     @java.lang.Override
     public Builder mergeFrom(com.google.protobuf.Message other) {
-      if (other instanceof kh.edu.istad.contracts.customer.v1.CustomerResponse) {
-        return mergeFrom((kh.edu.istad.contracts.customer.v1.CustomerResponse)other);
+      if (other instanceof kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse) {
+        return mergeFrom((kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse)other);
       } else {
         super.mergeFrom(other);
         return this;
       }
     }
 
-    public Builder mergeFrom(kh.edu.istad.contracts.customer.v1.CustomerResponse other) {
-      if (other == kh.edu.istad.contracts.customer.v1.CustomerResponse.getDefaultInstance()) return this;
+    public Builder mergeFrom(kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse other) {
+      if (other == kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse.getDefaultInstance()) return this;
       if (other.hasCustomer()) {
         mergeCustomer(other.getCustomer());
       }
@@ -511,23 +511,23 @@ private static final long serialVersionUID = 0L;
       return customerBuilder_;
     }
 
-    // @@protoc_insertion_point(builder_scope:customer.v1.CustomerResponse)
+    // @@protoc_insertion_point(builder_scope:customer.v1.AssignCustomerSegmentResponse)
   }
 
-  // @@protoc_insertion_point(class_scope:customer.v1.CustomerResponse)
-  private static final kh.edu.istad.contracts.customer.v1.CustomerResponse DEFAULT_INSTANCE;
+  // @@protoc_insertion_point(class_scope:customer.v1.AssignCustomerSegmentResponse)
+  private static final kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse DEFAULT_INSTANCE;
   static {
-    DEFAULT_INSTANCE = new kh.edu.istad.contracts.customer.v1.CustomerResponse();
+    DEFAULT_INSTANCE = new kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse();
   }
 
-  public static kh.edu.istad.contracts.customer.v1.CustomerResponse getDefaultInstance() {
+  public static kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse getDefaultInstance() {
     return DEFAULT_INSTANCE;
   }
 
-  private static final com.google.protobuf.Parser<CustomerResponse>
-      PARSER = new com.google.protobuf.AbstractParser<CustomerResponse>() {
+  private static final com.google.protobuf.Parser<AssignCustomerSegmentResponse>
+      PARSER = new com.google.protobuf.AbstractParser<AssignCustomerSegmentResponse>() {
     @java.lang.Override
-    public CustomerResponse parsePartialFrom(
+    public AssignCustomerSegmentResponse parsePartialFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -546,17 +546,17 @@ private static final long serialVersionUID = 0L;
     }
   };
 
-  public static com.google.protobuf.Parser<CustomerResponse> parser() {
+  public static com.google.protobuf.Parser<AssignCustomerSegmentResponse> parser() {
     return PARSER;
   }
 
   @java.lang.Override
-  public com.google.protobuf.Parser<CustomerResponse> getParserForType() {
+  public com.google.protobuf.Parser<AssignCustomerSegmentResponse> getParserForType() {
     return PARSER;
   }
 
   @java.lang.Override
-  public kh.edu.istad.contracts.customer.v1.CustomerResponse getDefaultInstanceForType() {
+  public kh.edu.istad.contracts.customer.v1.AssignCustomerSegmentResponse getDefaultInstanceForType() {
     return DEFAULT_INSTANCE;
   }
 

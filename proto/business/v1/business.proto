@@ -2,19 +2,15 @@ syntax = "proto3";
 
 package business.v1;
 
-option java_package = "kh.edu.istad.contracts.business.v1";
 option java_multiple_files = true;
+option java_package = "kh.edu.istad.contracts.business.v1";
 
 service BusinessService {
+  rpc RegisterBusiness(RegisterBusinessRequest) returns (RegisterBusinessResponse);
 
-  rpc RegisterBusiness(RegisterBusinessRequest)
-      returns (RegisterBusinessResponse);
+  rpc ValidateBusiness(ValidateBusinessRequest) returns (ValidateBusinessResponse);
 
-  rpc ValidateBusiness(ValidateBusinessRequest)
-      returns (ValidateBusinessResponse);
-
-  rpc ReviewOrder(ReviewOrderRequest)
-      returns (ReviewOrderResponse);
+  rpc ReviewOrder(ReviewOrderRequest) returns (ReviewOrderResponse);
 }
 
 message Business {

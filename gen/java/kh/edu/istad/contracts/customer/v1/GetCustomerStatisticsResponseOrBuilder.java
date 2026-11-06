@@ -6,8 +6,8 @@
 package kh.edu.istad.contracts.customer.v1;
 
 @com.google.protobuf.Generated
-public interface CustomerStatisticsResponseOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:customer.v1.CustomerStatisticsResponse)
+public interface GetCustomerStatisticsResponseOrBuilder extends
+    // @@protoc_insertion_point(interface_extends:customer.v1.GetCustomerStatisticsResponse)
     com.google.protobuf.MessageOrBuilder {
 
   /**

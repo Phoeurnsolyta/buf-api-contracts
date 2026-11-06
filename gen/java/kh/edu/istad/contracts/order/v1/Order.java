@@ -45,21 +45,24 @@ public final class Order extends com.google.protobuf.GeneratedFile {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\024order/v1/order.proto\022\010order.v1\"\225\001\n\022Cre" +
-      "ateOrderRequest\022\037\n\013customer_id\030\001 \001(\tR\ncu" +
-      "stomerId\022\037\n\013business_id\030\002 \001(\tR\nbusinessI" +
-      "d\022!\n\014product_name\030\003 \001(\tR\013productName\022\032\n\010" +
-      "quantity\030\004 \001(\005R\010quantity\"i\n\023CreateOrderR" +
-      "esponse\022\031\n\010order_id\030\001 \001(\tR\007orderId\022\037\n\013tr" +
-      "acking_id\030\002 \001(\tR\ntrackingId\022\026\n\006status\030\003 " +
-      "\001(\tR\006status2Z\n\014OrderService\022J\n\013CreateOrd" +
-      "er\022\034.order.v1.CreateOrderRequest\032\035.order" +
-      ".v1.CreateOrderResponseB#\n\037kh.edu.istad." +
-      "contracts.order.v1P\001b\006proto3"
+      "\n\024order/v1/order.proto\022\010order.v1\032\034google" +
+      "/api/annotations.proto\"\225\001\n\022CreateOrderRe" +
+      "quest\022\037\n\013customer_id\030\001 \001(\tR\ncustomerId\022\037" +
+      "\n\013business_id\030\002 \001(\tR\nbusinessId\022!\n\014produ" +
+      "ct_name\030\003 \001(\tR\013productName\022\032\n\010quantity\030\004" +
+      " \001(\005R\010quantity\"i\n\023CreateOrderResponse\022\031\n" +
+      "\010order_id\030\001 \001(\tR\007orderId\022\037\n\013tracking_id\030" +
+      "\002 \001(\tR\ntrackingId\022\026\n\006status\030\003 \001(\tR\006statu" +
+      "s2u\n\014OrderService\022e\n\013CreateOrder\022\034.order" +
+      ".v1.CreateOrderRequest\032\035.order.v1.Create" +
+      "OrderResponse\"\031\202\323\344\223\002\023\"\016/api/v1/orders:\001*" +
+      "B#\n\037kh.edu.istad.contracts.order.v1P\001b\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
+          com.google.api.AnnotationsProto.getDescriptor(),
         });
     internal_static_order_v1_CreateOrderRequest_descriptor =
       getDescriptor().getMessageType(0);
@@ -74,6 +77,12 @@ public final class Order extends com.google.protobuf.GeneratedFile {
         internal_static_order_v1_CreateOrderResponse_descriptor,
         new java.lang.String[] { "OrderId", "TrackingId", "Status", });
     descriptor.resolveAllFeaturesImmutable();
+    com.google.api.AnnotationsProto.getDescriptor();
+    com.google.protobuf.ExtensionRegistry registry =
+        com.google.protobuf.ExtensionRegistry.newInstance();
+    registry.add(com.google.api.AnnotationsProto.http);
+    com.google.protobuf.Descriptors.FileDescriptor
+        .internalUpdateFileDescriptor(descriptor, registry);
   }
 
   // @@protoc_insertion_point(outer_class_scope)
